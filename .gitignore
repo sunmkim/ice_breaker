@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+/.vscode
+*.lock
+Pipfile
+.DS_Store
 # C extensions
 *.so
 
