@@ -31,7 +31,6 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
         for k, v in data.items()
         if v not in ([], "", None, '', "") and k not in ["certifications"]
     }
-    print(data)
     return data
 
 if __name__ == "__main__":
